@@ -1,0 +1,95 @@
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+.App {
+  text-align: center;
+  padding-right: 5px;
+}
+
+.App-form {
+  margin: 3rem auto;
+  width: 500px;
+  max-width: 80%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: blue; /* Or any light color for contrast */
+}
+
+.App-form > div {
+  display: flex;
+  margin-bottom: 1rem; /* Add spacing between form elements */
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#symText{
+  padding-right: 10px;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #384b71; /* Your desired background color */
+}
+
+
+button.submitButton {
+  padding: 0.5rem 1rem;
+  padding-top: 10px;
+  background-color: #1DA1F2; /* A twitter color */
+  color: black;
+  border: black;
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.submitButton:hover {
+  background-color: black;
+  border: #1DA1F2;
+  color:#1DA1F2
+
+}
+button.submitButton:active{
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+button.findAnomaliesButton{
+  padding:0.5rem 1rem;
+  background-color: lightcoral;
+  color:white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button.findAnomaliesButton:hover {
+  background-color: black;
+  border: lightcoral;
+  color:lightcoral
+
+}
+button.findAnomaliesButton:active{
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}

@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+video{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+
+}
+.market-data {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.market-item {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 30px; /* Rounded borders */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Increased gap for better spacing */
+  transition: background-color 0.3s ease; /* Transition for smooth color change */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+.Main{
+  width: 100%;
+  height:100vh;
+}
+.market-item:hover {
+  background-color: #4a4a4a; /* Slightly lighter on hover */
+}
+.market-item img {
+  border-radius: 50%; /* Make the images round */
+  background-color: #fff; /* White background for logos */
+  padding: 3px; /* Padding to create a border-like effect */
+}
+.market-item > strong {
+  font-size: 20px; /* Slightly larger */
+  color: #fff;
+  margin-right: 5px; /* Added margin for better spacing */
+}
+.market-item > span {
+  font-size: 16px;
+  color: #aaa;
+}
+.get-started {
+  display: inline-block; /* Changed to inline-block for proper padding */
+  background-color: #ff9500; /* Bright color for visibility */
+  color: #1a1a1a; /* Contrast color for the text */
+  padding: 15px 30px; /* Increased padding for a larger button */
+  border-radius: 50px; /* Highly rounded borders for a pill shape */
+  border: none; /* No border */
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Spacing between letters */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: none; /* Remove underline from the link */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-top: 20px; /* Margin at the top for spacing */
+}
+.get-started:hover {
+  background-color: #eb8c00; /* Darker shade on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
