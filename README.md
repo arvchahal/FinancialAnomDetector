@@ -18,4 +18,7 @@ account for splits in stocks and dividends and so on.
 
 Thanks and have fun
 
-The website is deployed at here:https://anomaly-detector-iykamobe5-arvchahals-projects.vercel.app/
+The website is no longer deployed 
+
+
+To run this code locally clone the git hub repo and cd into frontend and run npm start
