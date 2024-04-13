@@ -55,7 +55,7 @@ npm start
 ```
 The application should now be running locally and accessible via a web browser at http://localhost:3000.
 
-##Note##
+## Note
 The application uses adjusted stock data to account for splits, dividends, and other adjustments. The website is currently not deployed and can only be run locally.
 
 ---
