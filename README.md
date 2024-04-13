@@ -25,8 +25,8 @@ The website is no longer hosted and can only be run locally
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone [<repository-url>](https://github.com/arvchahal/FinancialAnomDetector.git)
+cd FinancialAnomDetector
 ```
 ```bash
 cd backend
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ```
 ```bash
-export FLASK_APP=<flask_api_filename>.py  # On Windows use `set FLASK_APP=<flask_api_filename>.py`
+export FLASK_APP=flaskAPI.py  # On Windows use `set FLASK_APP=<flask_api_filename>.py`
 
 flask run
 ```
