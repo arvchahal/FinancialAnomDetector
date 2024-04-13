@@ -3,6 +3,8 @@
 ## Overview
 This fullstack application utilizes the Alphavantage API to fetch the most recent stock information, including date, open, close, and volume. The data is then used to compute various technical indicators such as RSI, MACD, EMA, and moving averages (20-day and 50-day). These features are input into an Isolation Forest Machine Learning Algorithm to detect anomalies, which are then visualized on the frontend as red splotches.
 
+The website is no longer hosted and can only be run locally
+
 ## Features
 - **Anomaly Detection**: Detects anomalies in stock data using machine learning.
 - **Data Visualization**: Displays anomalies on the frontend with distinctive markings.
